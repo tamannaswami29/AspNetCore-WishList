@@ -9,6 +9,7 @@ namespace WishListTests
         [Fact(DisplayName = "Add Tag Helper Support @add-tag-helper-support")]
         public void AddTagHelperSupportTest()
         {
+            //Comment
             // Get appropriate path to file for the current operating system
             var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "WishList" + Path.DirectorySeparatorChar + "Views" + Path.DirectorySeparatorChar + "_ViewImports.cshtml";
             // Assert Index.cshtml is in the Views/Home folder

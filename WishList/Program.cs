@@ -14,6 +14,7 @@ namespace WishList
     {
         public static void Main(string[] args)
         {
+            //comment
             BuildWebHost(args).Run();
         }
 
