@@ -11,7 +11,8 @@ namespace WishList.Models
         public int Id { get; set; }
         //adding attributes
         [Required]
-        [MaxLength(50)]
+        [MaxLength(6)]                         //validations on description attribute
         public string Description { get; set; }
+        public bool IsSelected { get; internal set; }
     }
 }
